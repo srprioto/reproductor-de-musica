@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    <!-- menu -->
+    <nav class="menu navbar navbar-expand-lg container-fluid">
+        <div class="box-logo">
+            <a href="index.html" class="">
+                <img src="images/logo.png" alt="">
+                <h1 class="timeme">OYE</h1>
+            </a>
+        </div>
+        
+        <button class="navbar-toggler boton-menu-responsive" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">--</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ul-box-menu">
+
+                <div class="menu-parte-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </div>
+
+                <div class="menu-parte-2">
+                    <a href="Canciones.html" class="btn btn-primary">Canciones</a>
+                    <a href="login.html" class="btn btn-primary">Login</a>
+                    <a href="Registro.html" class="btn btn-primary">Registro</a>
+                </div>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="box-registro">
+
+            <div class="registro">
+
+                <form>
+
+                    <h3 class="timeme">Registro</h3>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electronico *</label>
+                        <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Correo electronico">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña *</label>
+                        <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" required placeholder="Contraseña">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Validar contraseña *</label>
+                        <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" required placeholder="Validar contraseña">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="select_cancion" class="form-label">Genero de cancion favorita *</label>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>Seleccione...</option>
+                            <option value="1">Cancion 1</option>
+                            <option value="2">Cancion 2</option>
+                            <option value="3">Cancion 3</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="radio_edad" class="form-label">Edad *</label>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                            <label class="form-check-label" for="exampleRadios1">
+                              Menor a 20
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              20 a 40
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                              Mayor a 50
+                            </label>
+                          </div>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Acepto los términos de uso *
+                            </label>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Conectar</button>
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <p>asdfasdfasdf</p>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="js/registro.js"></script>
+
+</body>
+</html>
